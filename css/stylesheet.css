@@ -1,9 +1,9 @@
 body{
     background-image: url("/img/960x0.gif");
-    animation-name: create;
+    animation-name: crar;
     animation-duration: 0.5s;
 }
-@keyframes create {
+@keyframes crar {
     from {opacity: 0.2;}
     to {opacity: 1;}
   }
