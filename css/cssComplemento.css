@@ -37,10 +37,6 @@ body{
   }
 #emanuel{
     margin-top: 50px;
-    padding-bottom: 50px;
-}
-#emanuel{
-    margin-top: 50px;
     padding-bottom: 20px;
 }
 #emanuel img{
@@ -54,6 +50,11 @@ body{
 #return:hover{
     color:rgb(226, 223, 223);
     text-decoration: solid rgb(226, 223, 223);
+    background: none;
+}
+#return:active{
+    color:rgb(226, 223, 223);
+    background: none;
 }
 #returnD{
     padding-bottom: 15px;
