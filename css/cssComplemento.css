@@ -28,7 +28,13 @@
    }
 body{
     background-image: url(/img/tumblr_ohczsv8s4q1vcsf3eo1_640.gif);
+    animation-name: create;
+    animation-duration: 0.5s;
 }
+@keyframes create {
+    from {opacity: 0.2;}
+    to {opacity: 1;}
+  }
 #emanuel{
     margin-top: 50px;
     padding-bottom: 50px;
