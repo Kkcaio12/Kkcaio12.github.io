@@ -31,10 +31,6 @@ body{
 }
 #emanuel{
     margin-top: 50px;
-    padding-bottom: 50px;
-}
-#emanuel{
-    margin-top: 50px;
     padding-bottom: 20px;
 }
 #emanuel img{
@@ -55,6 +51,7 @@ body{
 #ema{
     width: 250px;
     height: 250px;
+    object-fit: cover;
 }
 #inst{
     position: relative;
