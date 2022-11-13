@@ -3,7 +3,7 @@
     position: absolute; 
     left: 0; 
     right: 0;
-    top: 20%;
+    top: 9%;
     bottom: 0;
     margin-left: auto; 
     margin-right: auto; 
@@ -28,13 +28,11 @@
    }
 body{
     background-image: url(/img/tumblr_ohczsv8s4q1vcsf3eo1_640.gif);
-    animation-name: create;
-    animation-duration: 0.5s;
 }
-@keyframes create {
-    from {opacity: 0.2;}
-    to {opacity: 1;}
-  }
+#emanuel{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
 #emanuel{
     margin-top: 50px;
     padding-bottom: 20px;
@@ -50,12 +48,23 @@ body{
 #return:hover{
     color:rgb(226, 223, 223);
     text-decoration: solid rgb(226, 223, 223);
-    background: none;
-}
-#return:active{
-    color:rgb(226, 223, 223);
-    background: none;
 }
 #returnD{
     padding-bottom: 15px;
+}
+#eman{
+    width: 250px;
+    height: 250px;
+}
+#insta{
+    position: relative;
+    top: 3%;
+    font-size: 35px;
+    color: rgb(247, 244, 244);
+}
+#insta:hover{
+    color: rgb(220, 218, 218);
+}
+#p2{
+    margin-top: 15px;
 }
