@@ -3,4 +3,5 @@ senha = document.getElementById("senha")
 
 function clicou(){
     console.log(email.value, senha.value)
+    x += 1
 }
